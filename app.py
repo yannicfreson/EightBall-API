@@ -35,4 +35,4 @@ class Quote(Resource):
 api.add_resource(Quote, "/eightball", "/eightball/")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
